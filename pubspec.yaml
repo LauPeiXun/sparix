@@ -1,0 +1,94 @@
+name: sparix
+description: "BMIT2073 Mobile Application Assignment"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  smooth_page_indicator: ^1.1.0
+  flutter:
+    sdk: flutter
+
+  pdf: ^3.11.0
+  printing: ^5.12.0
+
+
+  # Firebase
+  firebase_core: ^3.12.1
+  firebase_auth: ^5.5.1
+  cloud_firestore: ^5.6.5
+  firebase_storage: ^12.4.4
+  firebase_messaging: ^15.2.5
+  google_sign_in: ^7.1.1
+  firebase_app_check: ^0.3.2+5
+  cloud_functions: ^5.4.0
+
+  # Widgets
+  fluttertoast: ^8.2.12
+  shimmer: ^3.0.0
+  cupertino_icons: ^1.0.8
+
+  # QR Code Scanner
+  mobile_scanner: ^5.0.0
+  permission_handler: ^11.3.1
+  path_provider: ^2.1.2
+
+  # Image Picker
+  image_picker: ^1.0.4
+
+  # Format
+  intl: ^0.18.1
+
+  # State Management
+  provider: ^6.1.2
+
+  # Charts
+  fl_chart: ^0.68.0
+
+  # Biometric Authentication
+  local_auth: ^2.1.6
+  local_auth_android: ^1.0.34
+  local_auth_ios: ^1.1.6
+  flutter_local_notifications: ^17.2.1
+  hive: ^2.2.3
+
+  table_calendar: ^3.0.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.4.1
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/Sparix_logo.png
+    - assets/icons/dashboard.png
+    - assets/icons/home.png
+    - assets/icons/package.png
+    - assets/icons/people.png
+    - assets/icons/qr-code.png
+
+    - assets/images/mobile-password-forgot.png
+    - assets/images/battery-terminal-connector.jpg
+    - assets/images/alternatorblet.webp
+    - assets/images/alternator.webp
+    - assets/images/brakepad.webp
+    - assets/images/sparixLogo.jpg
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto/static/Roboto-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Roboto/static/Roboto-Bold.ttf
+          weight: 700
+
+
